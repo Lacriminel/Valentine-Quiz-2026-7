@@ -781,14 +781,14 @@
 }
 
 .cloud-bubble .title {
-  font-size: 2.3rem;
+  font-size: 1.9rem;
   background: linear-gradient(135deg, #d63384 0%, #e91e8c 30%, #ff6b9d 60%, #d63384 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-shadow: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   animation: titleShimmer 3s ease-in-out infinite;
   line-height: 1.4;
 }
@@ -799,16 +799,16 @@
 }
 
 .cloud-bubble .subtitle {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #777;
   margin-bottom: 0.5rem;
   font-style: italic;
 }
 
 .cloud-bubble .hint {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: #e91e8c;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   animation: hintPulse 2s ease-in-out infinite;
 }
 
@@ -818,9 +818,9 @@
 }
 
 .heart-pulse {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   animation: heartbeat 1.5s ease-in-out infinite;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   filter: drop-shadow(0 5px 15px rgba(214, 51, 132, 0.4));
 }
 
@@ -832,9 +832,9 @@
 }
 
 .title {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   color: #d63384;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -857,8 +857,8 @@
   background: linear-gradient(135deg, #ff6b9d 0%, #e91e8c 50%, #d63384 100%);
   color: white;
   border: none;
-  padding: 1.3rem 3.5rem;
-  font-size: 1.35rem;
+  padding: 1rem 2.8rem;
+  font-size: 1.15rem;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -952,11 +952,11 @@
 
 .question-card {
   background: white;
-  border-radius: 30px;
-  padding: 3.5rem 3rem;
-  max-width: 650px;
-  width: 100%;
-  box-shadow: 0 20px 60px rgba(214, 51, 132, 0.15);
+  border-radius: 25px;
+  padding: 2.5rem 2rem;
+  max-width: 550px;
+  width: 95%;
+  box-shadow: 0 15px 45px rgba(214, 51, 132, 0.15);
   text-align: center;
   animation: slideUp 0.5s ease-out;
   transition: all 0.4s ease;
@@ -987,8 +987,8 @@
 }
 
 .question-emoji {
-  font-size: 5rem;
-  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
   animation: bounce 2s ease infinite;
 }
 
@@ -998,9 +998,9 @@
 }
 
 .question-text {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #333;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -1014,9 +1014,9 @@
 .option-btn {
   background: linear-gradient(135deg, #fff5f8 0%, #ffeef8 100%);
   border: 2px solid #ffcce0;
-  padding: 1.3rem 1.8rem;
-  border-radius: 20px;
-  font-size: 1.2rem;
+  padding: 1rem 1.4rem;
+  border-radius: 18px;
+  font-size: 1.05rem;
   color: #555;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -1059,8 +1059,8 @@
 }
 
 .feedback-icon {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
   animation: iconPulse 0.6s ease;
 }
 
@@ -1071,7 +1071,7 @@
 }
 
 .feedback-message {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #333;
   line-height: 1.6;
   font-style: italic;

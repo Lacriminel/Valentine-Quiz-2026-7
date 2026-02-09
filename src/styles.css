@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px; /* Base font size - slightly smaller for better scaling */
+}
+
 html, body {
   height: 100%;
   overflow-x: hidden;
@@ -16,6 +20,25 @@ body {
   font-family: 'Georgia', 'Times New Roman', serif;
   background: linear-gradient(135deg, #ffeef8 0%, #fff5f8 50%, #ffe8f0 100%);
   min-height: 100vh;
+}
+
+/* Responsive font scaling */
+@media (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
 }
 
 /* Smooth scrolling */
